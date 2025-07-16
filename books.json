@@ -1,0 +1,91 @@
+[ {
+  "id" : 1,
+  "title" : "1984",
+  "author" : "George Orwell",
+  "summary" : "A dystopian social science fiction novel and cautionary tale about the future.",
+  "publishDate" : "08-Jun-1949"
+}, {
+  "id" : 2,
+  "title" : "To Kill a Mockingbird",
+  "author" : "Harper Lee",
+  "summary" : "A novel about racial injustice in the Deep South, seen through the eyes of a child.",
+  "publishDate" : "11-Jul-1960"
+}, {
+  "id" : 3,
+  "title" : "The Great Gatsby",
+  "author" : "F. Scott Fitzgerald",
+  "summary" : "A critique of the American Dream in the 1920s Jazz Age.",
+  "publishDate" : "10-Apr-1925"
+}, {
+  "id" : 4,
+  "title" : "Pride and Prejudice",
+  "author" : "Jane Austen",
+  "summary" : "A romantic novel that also critiques the British class system of the early 19th century.",
+  "publishDate" : "28-Jan-1813"
+}, {
+  "id" : 5,
+  "title" : "The Hobbit",
+  "author" : "J.R.R. Tolkien",
+  "summary" : "A fantasy adventure about Bilbo Baggins and a journey to a dragon’s lair.",
+  "publishDate" : "21-Jan-1937"
+}, {
+  "id" : 6,
+  "title" : "Fahrenheit 451",
+  "author" : "Ray Bradbury",
+  "summary" : "A dystopian novel about a future where books are banned and burned.",
+  "publishDate" : "19-Oct-1953"
+}, {
+  "id" : 7,
+  "title" : "Jane Eyre",
+  "author" : "Charlotte Brontë",
+  "summary" : "A novel about a governess's growth to adulthood and her love for Mr. Rochester.",
+  "publishDate" : "16-Oct-1847"
+}, {
+  "id" : 8,
+  "title" : "Moby-Dick",
+  "author" : "Herman Melville",
+  "summary" : "A sea captain's obsession with hunting a white whale.",
+  "publishDate" : "18-Oct-1851"
+}, {
+  "id" : 10,
+  "title" : "The Catcher in the Rye",
+  "author" : "J.D. Salinger",
+  "summary" : "A story about teenage angst and alienation.",
+  "publishDate" : "16-Jul-1951"
+}, {
+  "id" : 11,
+  "title" : "The Hobbit",
+  "author" : "J.R.R. Tolkien",
+  "summary" : "A fantasy novel about the adventures of Bilbo Baggins in Middle-earth.",
+  "publishDate" : "21-Sept-1937"
+}, {
+  "id" : 12,
+  "title" : "The Hobbit",
+  "author" : "J.R.R. Tolkien",
+  "summary" : "A fantasy novel about the adventures of Bilbo Baggins in Middle-earth.",
+  "publishDate" : "21-Sept-1937"
+}, {
+  "id" : 13,
+  "title" : "The Hobbit",
+  "author" : "J.R.R. Tolkien",
+  "summary" : null,
+  "publishDate" : "21-Sept-1937"
+}, {
+  "id" : 14,
+  "title" : "The Hobbit",
+  "author" : "J.R.R. Tolkien",
+  "summary" : null,
+  "publishDate" : "21-Sept-1937"
+}, {
+  "id" : 15,
+  "title" : "No Summary Book",
+  "author" : "Anonymous",
+  "summary" : "",
+  "publishDate" : "01-Jan-2000"
+}, {
+  "id" : 16,
+  "title" : "The Hobbit",
+  "author" : "J.R.R. Tolkien",
+  "summary" : "A fantasy novel about the adventures of Bilbo Baggins in Middle-earth.",
+  "publishDate" : "21-Sept-1937"
+} ]
