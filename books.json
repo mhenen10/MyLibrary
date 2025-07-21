@@ -88,4 +88,22 @@
   "author" : "J.R.R. Tolkien",
   "summary" : "A fantasy novel about the adventures of Bilbo Baggins in Middle-earth.",
   "publishDate" : "21-Sept-1937"
+}, {
+  "id" : 17,
+  "title" : "The Hobbit",
+  "author" : "J.R.R. Tolkien",
+  "summary" : "A fantasy novel about the adventures of Bilbo Baggins in Middle-earth.",
+  "publishDate" : "21-Sept-1937"
+}, {
+  "id" : 18,
+  "title" : "The Hobbit",
+  "author" : "J.R.R. Tolkien",
+  "summary" : "A fantasy novel about the adventures of Bilbo Baggins in Middle-earth.",
+  "publishDate" : "11-Sept-1937"
+}, {
+  "id" : 19,
+  "title" : "The Hobbit",
+  "author" : "J.R.R. Tolkien",
+  "summary" : "A fantasy novel about the adventures of Bilbo Baggins in Middle-earth.",
+  "publishDate" : "01-Sept-1937"
 } ]

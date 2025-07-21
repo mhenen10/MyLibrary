@@ -1,9 +1,10 @@
 package com.example.MyLibrary.requestBody;
 
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Pattern;
-import jakarta.validation.constraints.Size;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import jakarta.validation.constraints.*;
 import lombok.Data;
+
+import java.time.LocalDate;
 
 @Data
 public class BookRequest {
@@ -20,8 +21,8 @@ public class BookRequest {
     @Size(max = 1000, message = "Summary must not exceed 1000 characters.")
     private String summary;
 
-    @NotBlank(message = "Publish date is required.")
-    @Pattern(regexp = "^\\d{2}/\\d{2}/\\d{4}$", message = "Publish date must be in format dd/MM/yyyy.")
-    private String publishDate;
+    @NotNull(message = "Publish date is required.")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
+    private LocalDate publishDate;
 }
 

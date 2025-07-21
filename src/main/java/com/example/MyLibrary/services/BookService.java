@@ -15,8 +15,7 @@ import java.util.*;
 public class BookService {
 
     private final File file = new File("books.json");
-    private final ObjectMapper objectMapper = CustomObjectMapper.create(); // ✅ using your custom one
-    private final DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+    private final ObjectMapper objectMapper = CustomObjectMapper.create();
     private final DateTimeFormatter saveFormatter = DateTimeFormatter.ofPattern("dd-MMM-yyyy", Locale.ENGLISH);
 
     private List<Book> books = new ArrayList<>();
@@ -38,9 +37,8 @@ public class BookService {
     }
 
 
-    public void addBook(Book book, String rawDate) {
-        LocalDate publishDate = LocalDate.parse(rawDate, inputFormatter);
-        book.setPublishDate(LocalDate.parse(publishDate.format(saveFormatter), saveFormatter));
+    public void addBook(Book book, LocalDate rawDate) {
+        book.setPublishDate(LocalDate.parse(rawDate.format(saveFormatter), saveFormatter));
 
         book.setId(generateNextId());
         books.add(book);
